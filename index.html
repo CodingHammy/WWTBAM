@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WWTBAM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Who Wants To Be A Millionaire</h1>
+    <section id="wrapper">
+        <div class="lifeLines">
+            <button id="graph">Ask The Audience</button>
+            <button id="half">50/50</button>
+            <button id="random">Phone A Friend</button>
+        </div>
+        <div id="startTab">
+            <div class="wordsInTabDisplay">
+                <h4>Welcome to <br> Who Wants to be <br> a Millionaire</h4>
+                <p>Enter Your User Name Below</p>
+                <input type="text" name="text" id="enterUserName">
+                <button class="tabButton" id="start">Start</button>
+            </div>
+        </div>
+        <div id="loser">
+            <div class="wordsInTabDisplay">
+                <h4><span id="loserWrong">You Were Wrong</span><span id="loserRight">You've Taken The Money</span>
+                </h4>
+                <h6><span id="userName"></span><br> <br> You Are Walking <br> Away with <br> <br><span
+                        id="takeHomeMoney"></span>
+                </h6>
+                <button class="tabButton" id="playAgain">Play Again?</button>
+            </div>
+        </div>
+        <h6 id="money"></h6>
+        <h3 id="question"></h3>
+        <div>
+            <button class="questionButtons" id="index0"></button><button class="questionButtons"
+                id="index1"></button><button class="questionButtons" id="index2"></button><button
+                class="questionButtons" id="index3"></button>
+        </div>
+        <div>
+            <button id="quit">Take the Money</button>
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
